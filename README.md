@@ -3,7 +3,7 @@
 Pasos:
 
 1. Crear ambiente virtual
-2. Descargar librerías:
+2. Descargar dependencias:
 
 ```
 pip install -r requirements.txt
