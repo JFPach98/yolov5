@@ -37,9 +37,9 @@ convert_labels.py
 python train_mod.py --img 640 --batch 8 --epochs 30 --data ../data/classes.yaml --cfg yolov5s.yaml --weights /data/yolov5_ternium.pt --name yolov5s_ternium2 -cache
 ```
 
-5. Para hacer la identificación de objetos, se intr
+5. Para hacer la identificación de objetos, se corre el script detect.py usando los siguientes parámetros:
 ```
 python detect.py --weights weights/best_yolo5s_ternium.pt --img 640 --conf 0.4 --source 
 ```
 
-- En source se introduce el path a las imágenes a procesar por el modelo.
+- Delante de source se introduce el path a las imágenes a procesar por el modelo.
