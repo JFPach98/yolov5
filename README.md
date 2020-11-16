@@ -3,7 +3,7 @@
 Pasos:
 
 1. Crear ambiente virtual
-2. Descargar dependencias y clonar repositorio:
+2. Clonar repositorio y descargar dependencias:
 
 ```
 git clone https://github.com/ultralytics/yolov5
