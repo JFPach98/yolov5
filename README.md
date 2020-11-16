@@ -41,7 +41,7 @@ cd ../..
 4. Para entrenar de cero, utilizando los pesos de yolov5, se corre el siguiente script:
  
  ```
- python train_mod.py --img 640 --batch 8 --epochs 30 --data ../data/classes.yaml --cfg yolov5s.yaml --weights yolov5s.pt --name yolov5s_ternium -cache
+ python train_mod.py --img 640 --batch 8 --epochs 30 --data classes.yaml --cfg yolov5/models/yolov5s.yaml --weights 'yolov5.pt' --name yolov5s_ternium --cache
  ```
 
 - Nótese que 'yolov5_ternium' es el nombre con el que se guardan los pesos. 
