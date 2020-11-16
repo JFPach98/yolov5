@@ -14,7 +14,7 @@ git clone https://github.com/ultralytics/yolov5
 
 ```
 unzip labels
-unzip imagenes
+unzip dataset
 ```
 
 - Si se cuenta con las imágenes de forma local, se puede crear una carpeta 'imagenes' y se pueden insertar las imagenes en esta. Se puede hacer, de igual manera, para las labels.
