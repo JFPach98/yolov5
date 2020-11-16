@@ -3,10 +3,11 @@
 Pasos:
 
 1. Crear ambiente virtual
-2. Descargar dependencias:
+2. Descargar dependencias y clonar repositorio:
 
 ```
 pip install -r requirements.txt
+git clone https://github.com/ultralytics/yolov5
 ```
 
 3. Descomprimir las carpetas de labels y de imágenes.
