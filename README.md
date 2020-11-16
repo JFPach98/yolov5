@@ -59,7 +59,7 @@ cd ../..
 python train_mod.py --img 640 --batch 8 --epochs 30 --data ../data/classes.yaml --cfg yolov5s.yaml --weights /data/yolov5_ternium.pt --name yolov5s_ternium2 --nosave --cache
 ```
 
-5. Para hacer la identificación de objetos, se corre el script detect.py usando los siguientes parámetros:
+7. Para hacer la identificación de objetos, se corre el script detect.py usando los siguientes parámetros:
 ```
 python detect.py --weights weights/last_yolo5s_ternium.pt --img 640 --conf 0.4 --source 
 ```
