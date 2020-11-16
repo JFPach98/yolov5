@@ -17,7 +17,7 @@ unzip labels
 unzip dataset
 ```
 
-- Si se cuenta con las imágenes de forma local, se puede crear una carpeta 'imagenes' y se pueden insertar las imagenes en esta. Se puede hacer, de igual manera, para las labels.
+- Si se cuenta con las imágenes de forma local, se puede crear una carpeta 'dataset' y se pueden insertar las imagenes en esta. Se puede hacer, de igual manera, para las labels.
 - Las labels tienen que estar en formato yolo darknet. Para el formato de Ternium, se coloca el archivo .csv en este repositorio y se corre en la consola el siguiente script:
 
 ```
