@@ -26,12 +26,17 @@ unzip dataset
 convert_labels.py
 ```
 
-4. Crear carpetas de test y de train:
+4. Crear carpetas de test y de train, crear para cada carpeta subcarpetas de images y labels:
 ```
 mkdir data
 cd data
 mkdir train,test
+cd train
+mkdir images,labels
 cd ..
+cd test
+mkdir images,labels
+cd ../..
 ```
 4. Para entrenar de cero, utilizando los pesos de yolov5, se corre el siguiente script:
  
