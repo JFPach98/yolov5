@@ -38,7 +38,14 @@ cd test
 mkdir images,labels
 cd ../..
 ```
-4. Para entrenar de cero, utilizando los pesos de yolov5, se corre el siguiente script:
+
+5. Correr setup.py para crear datasets de entrenamiento y de prueba.
+
+ ```
+ python setup.py
+ ```
+
+6. Para entrenar de cero, utilizando los pesos de yolov5, se corre el siguiente script:
  
  ```
  python train_mod.py --img 640 --batch 8 --epochs 30 --data classes.yaml --cfg yolov5/models/yolov5s.yaml --weights 'yolov5.pt' --name yolov5s_ternium --cache
