@@ -1,7 +1,0 @@
-tqdm
-pycocotools
-tensorboard
-pyyaml
-opencv-python
-pillow
-numpy
